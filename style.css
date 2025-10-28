@@ -200,8 +200,8 @@ nav{
 
 .rodape-principal{
     display: flex;
-    background-color: #67C090;
     max-width: 1440px;
+    margin: 0 auto;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
@@ -240,7 +240,6 @@ nav{
 .dev{
     display: flex;
     justify-content: center;
-    background-color:#67C090 ;
     color: #22222270;
     font-weight: 444;
     padding: 5px;
@@ -251,3 +250,7 @@ nav{
     font-weight: 444;
 }
 
+footer{
+    background-color: #67C090;
+    width: 100%;
+}
